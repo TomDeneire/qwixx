@@ -36,8 +36,13 @@ class Dice:
         self.green.roll()
 
     def show(self):
-        print(f'White 1: {self.white1}')
-        print(f'White 2: {self.white2}')
-        print(f'Red: {self.red}')
-        print(f'Blue: {self.blue}')
-        print(f'Green: {self.green}')
+        if self.white1.active:
+            print(f'White 1: {self.white1}')
+        if self.white2.active:
+            print(f'White 2: {self.white2}')
+        if self.red.active:
+            print(f'Red: {self.red}')
+        if self.blue.active:
+            print(f'Blue: {self.blue}')
+        if self.green.active:
+            print(f'Green: {self.green}')
