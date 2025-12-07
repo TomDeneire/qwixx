@@ -9,3 +9,20 @@ GAME_LOGO = r"""
  \____ $$$ \_____/\___/ |__/|__/  \__/|__/  \__/
       \__/                                      
 """
+
+SEPARATOR = """
+--------------------------------------------------
+"""
+
+ACTIONS = """\nMove? 
+\t"O" to input other player
+\t"R" to roll dice
+\t"S" to show score
+\t"C" to close row
+\t"Q" to quit"\n\n"""
+
+RED = '\033[31m'
+YELLOW = '\033[33m'
+GREEN = '\033[32m'
+BLUE = '\033[34m'
+RESET = '\033[0m'
